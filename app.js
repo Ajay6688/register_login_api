@@ -16,12 +16,4 @@ app.post('/register', reg.register);
 
 app.post('/login', log.login);
 
-// app.post('/login', (req , res)=>{
-//     const roll_no = 
-// })
-
-// conn.query('select * from studentsBio', (err, result) => {
-//     if (err) throw err;
-//     console.log(result);
-// }););
 app.listen(2000, () => console.log("Server is listening at port 2000"));
